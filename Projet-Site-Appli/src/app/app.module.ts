@@ -17,6 +17,8 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {Overlay} from "./overlay";
 import {ToastsContainer} from "./toasts-container.component";
+import { ConnexionComponent } from './connexion/connexion.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import {ToastsContainer} from "./toasts-container.component";
     SimulationComponent,
     SurvivalComponent,
     Overlay,
-    ToastsContainer
+    ToastsContainer,
+    ConnexionComponent,
+    
 
   ],
   imports: [
